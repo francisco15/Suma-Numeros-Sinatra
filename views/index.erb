@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/> 
+		<title>Mision Suma Números!</title>
+	</head>
+
+	<body>
+
+		<h1>Mi cuenta es: <%= @cont %></h1>
+		<form action="/" method="get">
+			<input type="hidden" name="cont" value=<%= @cont %>></input>
+			<input type="submit" value="Suma!"></input>
+		</form>
+		
+	</body>
+</html>
